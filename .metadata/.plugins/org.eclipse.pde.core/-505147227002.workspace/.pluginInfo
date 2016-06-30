@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map>
+	<bundle bundleID="630" class="org.eclipse.wb.internal.css.Activator" localization="plugin" name="%pluginName" project="org.eclipse.wb.css" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="631" localization="OSGI-INF/l10n/bundle" name="edu.tamu.tcat.afs" project="edu.tamu.tcat.afs" provider="Texas A&amp;M Engineering Experiment Station"/>
+	<bundle bundleID="632" localization="plugin" name="%pluginName" project="org.eclipse.wb.rcp.doc.user" provider="%providerName"/>
+	<bundle bundleID="633" class="org.eclipse.wb.internal.core.databinding.xml.Activator" localization="plugin" name="%pluginName" project="org.eclipse.wb.core.databinding.xml" provider="%providerName"/>
+	<bundle bundleID="634" class="edu.tamu.tcat.elite.biosurv.fmd.internal.Activator" localization="OSGI-INF/l10n/bundle" name="FMD Biosurveillance" project="edu.tamu.tcat.elite.biosurv.fmd" provider="Texas A&amp;M Engineering Experiment Station"/>
+	<bundle bundleID="635" localization="OSGI-INF/l10n/bundle" name="E4 Standard Workbench Application" project="edu.tamu.tcat.e4.ui.application.standard"/>
+	<bundle bundleID="636" class="org.eclipse.platform.e4.theme.internal.Activator" localization="OSGI-INF/l10n/bundle" name="Eclipse Platform E4 Theme" project="org.eclipse.platform.e4.theme" provider="Texas A&amp;M Engineering Experiment Station"/>
+	<bundle bundleID="637" localization="OSGI-INF/l10n/bundle" name="ELITE LIMS Config Data" project="edu.tamu.tcat.elite.config"/>
+	<bundle bundleID="638" localization="OSGI-INF/l10n/bundle" name="Util" project="edu.tamu.tcat.network.util"/>
+	<bundle bundleID="639" localization="OSGI-INF/l10n/bundle" name="Ext Point JSON Mapper Provider" project="edu.tamu.tcat.elite.json.epoint"/>
+	<bundle bundleID="640" localization="plugin" name="%pluginName" project="org.eclipse.wb.doc.user" provider="%providerName"/>
+	<bundle bundleID="641" localization="OSGI-INF/l10n/bundle" name="Db" project="elite.pk.db"/>
+	<bundle bundleID="642" class="org.eclipse.wb.internal.core.xml.Activator" localization="plugin" name="%pluginName" project="org.eclipse.wb.core.xml" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="643" class="edu.tamu.tcat.pklims.formbuilder.internal.Activator" localization="OSGI-INF/l10n/bundle" name="Formbuilder" project="edu.tamu.tcat.pklims.formbuilder">
+		<library name="."/>
+		<library name="org.pushingpixels.trident_1.2.0.v20100204-1500.jarorg.eclipse.e4.xwt_0.9.1.SNAPSHOT.jarorg.eclipse.e4.xwt.forms_0.9.1.SNAPSHOT.jar"/>
+	</bundle>
+	<bundle bundleID="644" class="org.eclipse.wb.internal.swt.Activator" localization="plugin" name="%pluginName" project="org.eclipse.wb.swt" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="645" localization="OSGI-INF/l10n/bundle" name="Notifications" project="edu.tamu.tcat.notifications" provider="Texas A&amp;M Engineering Experiment Station"/>
+	<bundle bundleID="646" localization="OSGI-INF/l10n/bundle" name="OSGi Services Util" project="edu.tamu.tcat.osgi.services.util"/>
+	<bundle bundleID="647" class="edu.tamu.tcat.elite.config.db.internal.Activator" localization="OSGI-INF/l10n/bundle" name="edu.tamu.tcat.elite.config.db" project="edu.tamu.tcat.elite.config.db" provider="Texas A&amp;M Engineering Experiment Station"/>
+	<bundle bundleID="648" class="edu.tamu.tcat.pklims.webserver.internal.Activator" localization="OSGI-INF/l10n/bundle" name="Webserver" project="edu.tamu.tcat.pklims.webserver"/>
+	<bundle bundleID="649" class="edu.tamu.tcat.pklims.biosurveillance.internal.Activator" localization="OSGI-INF/l10n/bundle" name="PKLIMS Biosurveillance" project="edu.tamu.tcat.pklims.biosurveillance" provider="Texas A&amp;M Engineering Experiment Station"/>
+	<bundle bundleID="650" class="org.tcat.citd.sim.reports.internal.Activator" localization="OSGI-INF/l10n/bundle" name="Reports" project="org.tcat.citd.sim.reports"/>
+	<bundle bundleID="651" class="org.eclipse.wb.swt.widgets.baseline.BaselineActivator" localization="plugin" name="%pluginName" project="org.eclipse.wb.swt.widgets.baseline" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="652" class="edu.tamu.tcat.pklims.internal.Activator" localization="OSGI-INF/l10n/bundle" name="pklims" project="edu.tamu.tcat.pklims" provider="Texas A&amp;M Engineering Experiment Station"/>
+	<bundle bundleID="653" localization="OSGI-INF/l10n/bundle" name="PKLIMS Theme" project="edu.tamu.tcat.pklims.theme" provider="Texas A&amp;M Engineering Experiment Station"/>
+	<bundle bundleID="654" localization="fragment" name="%fragmentName" project="org.eclipse.wb.jdt.fragment" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="655" localization="OSGI-INF/l10n/bundle" name="edu.tamu.tcat.lims" project="edu.tamu.tcat.lims" provider="Texas A&amp;M Engineering Experiment Station"/>
+	<bundle bundleID="656" class="org.eclipse.wb.internal.core.databinding.Activator" localization="plugin" name="%pluginName" project="org.eclipse.wb.core.databinding" provider="%providerName"/>
+	<bundle bundleID="657" class="edu.tamu.tcat.elite.network.internal.Activator" localization="OSGI-INF/l10n/bundle" name="Network" project="edu.tamu.tcat.elite.network"/>
+	<bundle bundleID="658" class="org.eclipse.wb.internal.rcp.Activator" localization="plugin" name="%pluginName" project="org.eclipse.wb.rcp" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="659" localization="OSGI-INF/l10n/bundle" name="Network Tests" project="edu.tamu.tcat.elite.network.tests"/>
+	<bundle bundleID="660" localization="plugin" name="%pluginName" project="org.eclipse.wb.os.win32" provider="%providerName"/>
+	<bundle bundleID="661" class="pk.org.fao.elite.biosurv.ppr.internal.Activator" localization="OSGI-INF/l10n/bundle" name="PPR BioSurveillance Module" project="pk.org.fao.elite.biosurv.ppr" provider="NUST"/>
+	<bundle bundleID="662" class="edu.tamu.tcat.elite.biosurv.pklims.ui.internal.Activator" localization="OSGI-INF/l10n/bundle" name="PKLIMS ELITE Biosurveillance Ui" project="edu.tamu.tcat.elite.biosurv.pklims.ui"/>
+	<bundle bundleID="663" class="org.eclipse.wb.internal.discovery.ui.WBDiscoveryUiPlugin" localization="plugin" name="%pluginName" project="org.eclipse.wb.discovery.ui" provider="%providerName"/>
+	<bundle bundleID="664" class="edu.tamu.tcat.elite.config.server.internal.Activator" localization="OSGI-INF/l10n/bundle" name="ELITE Config Server" project="edu.tamu.tcat.elite.config.server" provider="CITD"/>
+	<bundle bundleID="665" class="org.eclipse.wb.internal.rcp.swing2swt.Activator" localization="plugin" name="%pluginName" project="org.eclipse.wb.rcp.swing2swt" provider="%providerName"/>
+	<bundle bundleID="666" class="org.eclipse.wb.internal.discovery.core.WBDiscoveryCorePlugin" localization="plugin" name="%pluginName" project="org.eclipse.wb.discovery.core" provider="%providerName"/>
+	<bundle bundleID="667" class="org.eclipse.wb.internal.rcp.databinding.Activator" localization="plugin" name="%pluginName" project="org.eclipse.wb.rcp.databinding" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="668" localization="OSGI-INF/l10n/bundle" name="LIMS Basic Implementation" project="edu.tamu.tcat.lims.basic"/>
+	<bundle bundleID="669" class="org.eclipse.wb.internal.core.DesignerPlugin" localization="plugin" name="%pluginName" project="org.eclipse.wb.core" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="670" localization="OSGI-INF/l10n/bundle" name="Mutable Tests" project="edu.tamu.tcat.mutable.tests"/>
+	<bundle bundleID="671" class="edu.tamu.tcat.elite.biosurv.server.internal.Activator" localization="OSGI-INF/l10n/bundle" name="Bioserveillance Server" project="edu.tamu.tcat.elite.biosurv.server" provider="Texas A&amp;M Engineering Experiment Station"/>
+	<bundle bundleID="672" class="edu.tamu.tcat.e4.ui.internal.Activator" localization="OSGI-INF/l10n/bundle" name="E4 UI" project="edu.tamu.tcat.e4.ui" provider="Texas A&amp;M Engineering Experiment Station"/>
+	<bundle bundleID="673" localization="plugin" name="%pluginName" project="org.eclipse.wb.layout.group" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="674" class="edu.tamu.tcat.e4.ui.theme.internal.Activator" localization="OSGI-INF/l10n/bundle" name="E4 Theme Supplementals" project="edu.tamu.tcat.e4.ui.theme" provider="Texas A&amp;M Engineering Experiment Station"/>
+	<bundle bundleID="675" class="org.eclipse.wb.internal.rcp.databinding.xwt.Activator" localization="plugin" name="%pluginName" project="org.eclipse.wb.rcp.databinding.xwt" provider="%providerName"/>
+	<bundle bundleID="676" class="org.eclipse.wb.internal.rcp.databinding.emf.Activator" localization="plugin" name="%pluginName" project="org.eclipse.wb.rcp.databinding.emf" provider="%providerName"/>
+	<bundle bundleID="677" class="edu.tamu.tcat.elite.json.internal.Activator" localization="OSGI-INF/l10n/bundle" name="JSON Utilities" project="edu.tamu.tcat.elite.json"/>
+	<bundle bundleID="678" localization="plugin" name="%pluginName" project="org.eclipse.wb.core.lib" provider="%providerName">
+		<library name="lib/guava-13.0.1.jar"/>
+		<library name="lib/MVEL-fork.jar"/>
+		<library name="lib/commons-lang-2.5.jar"/>
+		<library name="lib/commons-primitives-1.0.jar"/>
+		<library name="lib/commons-collections-3.2.1.jar"/>
+		<library name="lib/commons-io-2.0.1.jar"/>
+		<library name="lib/commons-beanutils-1.8.0.jar"/>
+		<library name="lib/commons-logging-1.1.1.jar"/>
+		<library name="lib/commons-digester-2.0.jar"/>
+		<library name="lib/asm-all-3.3.1.jar"/>
+		<library name="lib/nebula-cdatetime.jar"/>
+		<library name="lib/nebula-cwt.jar"/>
+	</bundle>
+	<bundle bundleID="679" localization="OSGI-INF/l10n/bundle" name="ELITE OSGI Utilities" project="edu.tamu.tcat.elite.osgi.services.util"/>
+	<bundle bundleID="680" class="org.eclipse.wb.os.Activator" localization="plugin" name="%pluginName" project="org.eclipse.wb.os" provider="%providerName"/>
+	<bundle bundleID="681" localization="OSGI-INF/l10n/bundle" name="BioServ FMD Tests" project="edu.tamu.tcat.elite.biosurv.fmd.tests"/>
+	<bundle bundleID="682" class="edu.tamu.tcat.network.mdns.internal.Activator" localization="OSGI-INF/l10n/bundle" name="Mdns" project="edu.tamu.tcat.network.mdns">
+		<library name="."/>
+		<library name="lib/jmdns.jar"/>
+	</bundle>
+	<bundle bundleID="683" class="edu.tamu.tcat.afs.db.internal.Activator" localization="OSGI-INF/l10n/bundle" name="AFS DB Implementation" project="edu.tamu.tcat.afs.db"/>
+	<bundle bundleID="684" class="edu.tamu.tcat.lims.db.internal.Activator" localization="OSGI-INF/l10n/bundle" name="edu.tamu.tcat.lims.db" project="edu.tamu.tcat.lims.db">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="685" class="edu.tamu.tcat.pklims.ui.internal.Activator" localization="OSGI-INF/l10n/bundle" name="PKLIMS E4 UI" project="edu.tamu.tcat.pklims.ui" provider="Texas A&amp;M Engineering Experiment Station"/>
+	<bundle bundleID="686" class="edu.tamu.tcat.afs.basic.internal.Activator" localization="OSGI-INF/l10n/bundle" name="Basic AFS Components" project="edu.tamu.tcat.afs.basic"/>
+	<bundle bundleID="687" class="edu.tamu.tcat.elite.biosurv.internal.Activator" localization="OSGI-INF/l10n/bundle" name="Biosurveillance" project="edu.tamu.tcat.elite.biosurv" provider="Texas A&amp;M Engineering Experiment Station"/>
+	<bundle bundleID="688" class="edu.tamu.tcat.pklims.casemgmt.internal.Activator" localization="OSGI-INF/l10n/bundle" name="Case Management" project="edu.tamu.tcat.pklims.casemgmt" provider="Texas A&amp;M Engineering Experiment Station"/>
+	<bundle bundleID="689" localization="OSGI-INF/l10n/bundle" name="Mutatable" project="edu.tamu.tcat.mutable" provider="Texas A&amp;M Engineering Experiment Station"/>
+	<bundle bundleID="690" class="edu.tamu.tcat.pklims.reporting.internal.Activator" localization="OSGI-INF/l10n/bundle" name="PKLIMS Reporting" project="edu.tamu.tcat.pklims.reporting" provider="Texas A&amp;M Engineering Experiment Station"/>
+	<bundle bundleID="691" localization="OSGI-INF/l10n/bundle" name="Tests" project="edu.tamu.tcat.elite.json.tests"/>
+	<bundle bundleID="692" class="edu.tamu.tcat.pklims.labprops.internal.Activator" localization="OSGI-INF/l10n/bundle" name="Lab Property Tools" project="edu.tamu.tcat.pklims.labprops" provider="Texas A&amp;M Engineering Experiment Station"/>
+	<bundle bundleID="693" class="org.eclipse.wb.internal.rcp.nebula.Activator" localization="plugin" name="%pluginName" project="org.eclipse.wb.rcp.nebula" provider="%providerName"/>
+	<bundle bundleID="694" class="edu.tamu.tcat.pklims.updates.internal.Activator" localization="OSGI-INF/l10n/bundle" name="Updates" project="edu.tamu.tcat.pklims.updates"/>
+	<bundle bundleID="695" class="org.eclipse.wb.internal.core.java.Activator" localization="plugin" name="%pluginName" project="org.eclipse.wb.core.java" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="696" class="edu.tamu.tcat.pklims.testing.internal.Activator" localization="OSGI-INF/l10n/bundle" name="Lab Testing" project="edu.tamu.tcat.pklims.testing" provider="Texas A&amp;M Engineering Experiment Station"/>
+	<bundle bundleID="697" localization="OSGI-INF/l10n/bundle" name="LIMS DB Tests" project="edu.tamu.tcat.lims.db.tests"/>
+	<bundle bundleID="698" class="edu.tamu.tcat.xwt.internal.Activator" localization="OSGI-INF/l10n/bundle" name="Xwt" project="edu.tamu.tcat.xwt" provider="Texas A&amp;M Engineering Experiment Station"/>
+	<bundle bundleID="699" localization="OSGI-INF/l10n/bundle" name="AFS Basic Impl Test" project="edu.tamu.tcat.afs.basic.tests"/>
+	<bundle bundleID="700" localization="plugin" name="%pluginName" project="org.eclipse.wb.runtime.lib" provider="%providerName">
+		<library name="lib/cglib-nodep-2.2.jar"/>
+	</bundle>
+	<bundle bundleID="701" localization="plugin" name="%pluginName" project="org.eclipse.wb.runtime" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="702" class="edu.tamu.tcat.afs.json.internal.Activator" localization="OSGI-INF/l10n/bundle" name="AFS JSON" project="edu.tamu.tcat.afs.json"/>
+	<bundle bundleID="703" class="pk.org.fao.pklims.biosurv.server.ppr.internal.Activator" localization="OSGI-INF/l10n/bundle" name="PPR BioSurveillance Server Module" project="pk.org.fao.pklims.biosurv.server.ppr" provider="NUST"/>
+	<bundle bundleID="704" class="edu.tamu.tcat.db.hsqldb.internal.Activator" localization="OSGI-INF/l10n/bundle" name="Hsqldb" project="edu.tamu.tcat.db.hsqldb">
+		<library name="."/>
+		<library name="lib/hsqldb_2.2.9.jar"/>
+	</bundle>
+	<bundle bundleID="705" class="edu.tamu.tcat.network.clique.internal.Activator" localization="OSGI-INF/l10n/bundle" name="Clique" project="edu.tamu.tcat.network.clique"/>
+	<bundle bundleID="706" localization="OSGI-INF/l10n/bundle" name="Properties Plug-in" project="org.tcat.citd.sim.properties" provider="Texas A&amp;M Engineering Experiment Station"/>
+	<bundle bundleID="707" localization="OSGI-INF/l10n/bundle" name="Dbutils" project="edu.tamu.tcat.dbutils"/>
+	<bundle bundleID="708" class="org.eclipse.wb.internal.xwt.Activator" localization="plugin" name="%pluginName" project="org.eclipse.wb.xwt" provider="%providerName">
+		<library name="."/>
+		<library name="lib/org.pushingpixels.trident_1.2.0.v20100204-1500.jar"/>
+		<library name="lib/org.eclipse.e4.xwt_0.9.1.SNAPSHOT.jar"/>
+		<library name="lib/org.eclipse.e4.xwt.forms_0.9.1.SNAPSHOT.jar"/>
+	</bundle>
+	<bundle bundleID="709" localization="OSGI-INF/l10n/bundle" name="PKLIMS Product" project="edu.tamu.tcat.pklims.product"/>
+	<bundle bundleID="710" class="edu.tamu.tcat.pklims.admin.internal.Activator" localization="OSGI-INF/l10n/bundle" name="PKLIMS Admin Tools" project="edu.tamu.tcat.pklims.admin" provider="Texas A&amp;M Engineering Experiment Station"/>
+	<bundle bundleID="711" localization="OSGI-INF/l10n/bundle" name="PKLIMS Configuration" project="elite.pk.conf" provider="Texas A&amp;M Engineering Experiment Station"/>
+	<bundle bundleID="712" class="edu.tamu.tcat.lims.json.internal.Activator" localization="OSGI-INF/l10n/bundle" name="LIMS JSON" project="edu.tamu.tcat.lims.json"/>
+	<bundle bundleID="713" class="org.eclipse.wb.internal.core.ui.Activator" localization="plugin" name="%pluginName" project="org.eclipse.wb.core.ui" provider="%providerName"/>
+	<bundle bundleID="714" class="edu.tamu.tcat.lims.ui.internal.Activator" localization="OSGI-INF/l10n/bundle" name="LIMS Ui" project="edu.tamu.tcat.lims.ui"/>
+	<bundle bundleID="715" localization="OSGI-INF/l10n/bundle" name="Biosurv Tests" project="edu.tamu.tcat.elite.biosurv.tests"/>
+</map>

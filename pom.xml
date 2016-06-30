@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>edu.tamu.tcat</groupId>
+  <artifactId>parent</artifactId>
+  <version>1.0.0-SNAPSHOT</version>
+  <packaging>pom</packaging>
+  <name>PKLIMS Project Build</name>
+  <prerequisites>
+    <maven>3.0</maven>
+  </prerequisites>
+  <properties>
+  <!-- 
+    <osgi.os>win32</osgi.os>
+    <osgi.ws>win32</osgi.ws>
+    <osgi.arch>x86</osgi.arch>
+   -->
+    <tycho-groupid>org.eclipse.tycho</tycho-groupid>
+    <tycho.showEclipseLog>true</tycho.showEclipseLog>
+    <tycho-version>0.17.0</tycho-version>
+    <replacer-groupid>com.google.code.maven-replacer-plugin</replacer-groupid>
+    <replacer-version>1.5.1</replacer-version>
+    <replacer-artifactid>replacer</replacer-artifactid>
+    <maven-plugins-groupid>org.apache.maven.plugins</maven-plugins-groupid>
+    <assembly-version>2.4</assembly-version>
+    <buildnumber-groupid>org.codehaus.mojo</buildnumber-groupid>
+    <buildnumber-version>1.2</buildnumber-version>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+    <java.version>1.7</java.version>
+    
+    <maven.build.timestamp.format>yyyy-MM-dd_HH:mm:ss</maven.build.timestamp.format>
+    <buildnumber>${maven.build.timestamp}</buildnumber>
+    <!--
+    <master-pom-path>../../../pom.xml</master-pom-path>
+    <master-pom-groupId>edu.tamu.tcat</master-pom-groupId>
+    <master-pom-artifactId>pklims-parent</master-pom-artifactId>
+    <master-pom-version>1.0.0-SNAPSHOT</master-pom-version>
+     -->
+    <repo-afs-path>tcat.afs/bundles</repo-afs-path>
+    <repo-afs-tests-path>tcat.afs/tests</repo-afs-tests-path>
+    <repo-biosurv-path>elite.biosurv/bundles</repo-biosurv-path>
+    <repo-biosurv-tests-path>elite.biosurv/tests</repo-biosurv-tests-path>
+    <repo-biosurv-features-path>elite.biosurv/bundles</repo-biosurv-features-path>
+    <repo-biosurv-releng-path>elite.biosurv/releng</repo-biosurv-releng-path>
+    <repo-core-path>elite.core/bundles</repo-core-path>
+    <repo-core-releng-path>elite.core/releng</repo-core-releng-path>
+    <repo-core-tests-path>elite.core/tests</repo-core-tests-path>
+    <repo-e4-path>elite.e4/bundles</repo-e4-path>
+    <repo-pk-path>elite.pk/bundles</repo-pk-path>
+    <repo-pk-deploy>elite.pk/deployment</repo-pk-deploy>
+    <repo-pk-releng-path>elite.pk/releng</repo-pk-releng-path>
+    <repo-pk-features-path>elite.pk/bundles</repo-pk-features-path>
+    <deployment-config-path>product</deployment-config-path>
+    <common-path>common/plugins</common-path>
+    <product-plugins-path>product/plugins</product-plugins-path>
+    <product-features-path>product/features</product-features-path>
+    <webserver-features-path>webserver/features</webserver-features-path>
+    <!-- For local builds -->  
+    <!--  
+    <product-path>../</product-path>
+    <deployment-config-path>../</deployment-config-path>
+    <common-path>../</common-path>
+    <product-features-path>../</product-features-path>
+    <webserver-features-path>../</webserver-features-path>
+      -->
+  </properties>
+  <modules>
+    <module>${deployment-config-path}/pklims.deployment</module>
+    
+    <module>${repo-pk-releng-path}/edu.tamu.tcat.pklims.product</module>
+    <module>${repo-biosurv-releng-path}/edu.tamu.tcat.elite.biosurv.server.product</module>
+    <module>${repo-core-releng-path}/edu.tamu.tcat.elite.config.server.product</module>
+        
+    <module>${repo-pk-features-path}/edu.tamu.tcat.pklims.feature</module>
+    <module>${repo-biosurv-features-path}/edu.tamu.tcat.elite.biosurv.server.feature</module>
+    <module>${product-features-path}/edu.tamu.tcat.e4.core.feature</module>
+    <module>${product-features-path}/edu.tamu.tcat.pklims.birt.feature</module>
+    <module>${webserver-features-path}/edu.tamu.tcat.webserver.feature</module>
+    
+    <module>${product-plugins-path}/edu.tamu.tcat.mutable</module>
+    <module>${product-plugins-path}/edu.tamu.tcat.notifications</module>
+    <module>${product-plugins-path}/edu.tamu.tcat.pklims.webserver</module>
+    
+    <module>${repo-afs-path}/edu.tamu.tcat.afs</module>
+    <module>${repo-afs-path}/edu.tamu.tcat.afs.basic</module>
+    <module>${repo-afs-path}/edu.tamu.tcat.afs.db</module>
+    <module>${repo-afs-path}/edu.tamu.tcat.afs.json</module>
+    
+    <module>${repo-core-path}/edu.tamu.tcat.dbutils</module>
+    <module>${repo-core-path}/edu.tamu.tcat.elite.json</module>
+    <module>${repo-core-path}/edu.tamu.tcat.lims</module>
+    <module>${repo-core-path}/edu.tamu.tcat.lims.basic</module>
+    <module>${repo-core-path}/edu.tamu.tcat.lims.db</module>
+    <module>${repo-core-path}/edu.tamu.tcat.lims.ui</module>
+    <module>${repo-core-path}/edu.tamu.tcat.elite.network</module>
+    <module>${repo-core-path}/edu.tamu.tcat.elite.config</module>
+    <module>${repo-core-path}/edu.tamu.tcat.elite.config.db</module>
+    <module>${repo-core-path}/edu.tamu.tcat.elite.config.server</module>
+    <module>${repo-core-path}/edu.tamu.tcat.elite.config.server.feature</module>
+    
+    <module>${repo-pk-path}/edu.tamu.tcat.pklims</module>
+    <module>${repo-pk-path}/edu.tamu.tcat.pklims.updates</module>
+    <module>${repo-pk-path}/edu.tamu.tcat.pklims.theme</module>
+    <module>${repo-pk-path}/edu.tamu.tcat.elite.biosurv.pklims.ui</module>
+    
+    <module>${repo-pk-deploy}/elite.pk.db</module>
+    <module>${repo-pk-deploy}/elite.pk.conf</module>
+    
+    <module>${repo-e4-path}/edu.tamu.tcat.pklims.admin</module>
+    <module>${repo-e4-path}/edu.tamu.tcat.pklims.biosurveillance</module>
+    <module>${repo-e4-path}/edu.tamu.tcat.pklims.casemgmt</module>
+    <module>${repo-e4-path}/edu.tamu.tcat.pklims.reporting</module>
+    <module>${repo-e4-path}/edu.tamu.tcat.pklims.testing</module>
+    <module>${repo-e4-path}/edu.tamu.tcat.pklims.ui</module>
+    
+    <module>${repo-biosurv-path}/edu.tamu.tcat.elite.biosurv</module>
+    <module>${repo-biosurv-path}/edu.tamu.tcat.elite.biosurv.fmd</module>
+    <module>${repo-biosurv-path}/edu.tamu.tcat.elite.biosurv.server</module>
+    <module>${repo-biosurv-path}/edu.tamu.tcat.pklims.labprops</module>
+    
+    
+    <module>${common-path}/edu.tamu.tcat.db.hsqldb</module>
+    <module>${common-path}/edu.tamu.tcat.e4.ui</module>
+    <module>${common-path}/edu.tamu.tcat.e4.ui.application.standard</module>
+    <module>${common-path}/edu.tamu.tcat.e4.ui.theme</module>
+    <module>${common-path}/edu.tamu.tcat.network.clique</module>
+    <module>${common-path}/edu.tamu.tcat.network.mdns</module>
+    <module>${common-path}/edu.tamu.tcat.network.util</module>
+    <module>${common-path}/edu.tamu.tcat.osgi.services.util</module>
+    <module>${common-path}/edu.tamu.tcat.xwt</module>
+    <module>${common-path}/org.eclipse.platform.e4.theme</module>
+    <module>${common-path}/org.tcat.citd.sim.properties</module>
+    <module>${common-path}/org.tcat.citd.sim.reports</module>
+    <module>${common-path}/edu.tamu.tcat.jre1_7</module>
+    <module>${common-path}/edu.tamu.tcat.jre1_7.win32.win32.x86</module>
+    <module>${common-path}/edu.tamu.tcat.jre1_7.win32.win32.x86_64</module>
+    <module>${common-path}/edu.tamu.tcat.jre1_7.linux.gtk.x86_64</module>
+  </modules>
+
+  <repositories>
+    <repository>
+      <id>Eclipse Platform</id>
+      <layout>p2</layout>
+      <url>file:///C:/pklimsdev/sites/repository_platform/</url>
+    </repository>
+    <repository>
+      <id>Eclipse Orbit</id>
+      <layout>p2</layout>
+      <url>file:///C:/pklimsdev/sites/repository_orbit/</url>
+    </repository>
+    <repository>
+      <id>Jackson</id>
+      <layout>p2</layout>
+      <url>file:///C:/pklimsdev/sites/Jackson.p2.site/</url>
+    </repository>
+  </repositories>
+  
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>${tycho-groupid}</groupId>
+        <artifactId>tycho-maven-plugin</artifactId>
+        <version>${tycho-version}</version>
+        <extensions>true</extensions>
+      </plugin>
+      <plugin>
+        <groupId>${tycho-groupid}</groupId>
+        <artifactId>target-platform-configuration</artifactId>
+        <version>${tycho-version}</version>
+        <configuration>
+          <!-- 
+            <includeAllPlatforms>true</includeAllPlatforms>
+          -->
+          <environments>
+            <environment>
+              <os>win32</os>
+              <ws>win32</ws>
+              <arch>x86</arch>
+            </environment>
+            <environment>
+              <os>win32</os>
+              <ws>win32</ws>
+              <arch>x86_64</arch>
+            </environment>
+            <!-- We build to linux because Hudson can't run tests without having the linux environment set -->
+            <environment>
+               <os>linux</os>
+               <ws>gtk</ws>
+               <arch>x86_64</arch>
+            </environment>
+        <!-- 
+            <environment>
+               <os>macosx</os>
+               <ws>cocoa</ws>
+               <arch>x86</arch>
+            </environment>
+            <environment>
+               <os>macosx</os>
+               <ws>cocoa</ws>
+               <arch>x86_64</arch>
+            </environment>
+         -->
+          </environments>
+        </configuration>
+      </plugin>
+      <!--
+      <plugin>
+        <groupId>${buildnumber-groupid}</groupId>
+        <version>${buildnumber-version}</version>
+        <artifactId>buildnumber-maven-plugin</artifactId>
+        <executions>
+          <execution>
+            <goals>
+              <goal>create</goal>
+            </goals>
+          </execution>
+        </executions>
+        <configuration>
+          <revisionOnScmFailure>?</revisionOnScmFailure>
+          <format>{0,date,yyyy-MM-dd_HH:mm:ss}</format>
+          <items>
+            <item>timestamp</item>
+          </items>
+          <doCheck>false</doCheck>
+          <doUpdate>false</doUpdate>
+        </configuration>
+      </plugin>
+      -->
+    </plugins>
+
+  </build>
+
+</project>
